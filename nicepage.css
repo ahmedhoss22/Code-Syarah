@@ -38912,7 +38912,7 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: .5px;
         font-weight: 700;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
@@ -38984,15 +38984,16 @@ a.u-link.u-text-hover-grey-90:hover {
         h1:not(.u-title)
         {
         font-size: 2.25rem;
-        font-weight: 900;
+        font-weight: 900 !important;
         text-transform: uppercase;
         line-height: 1.1;
-        letter-spacing: 2px;
-        color: #ffffff;
+        letter-spacing: 1px;
+        color: black;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
         }
         }
+        
         /*end-media rules*/
         /** publish-rules **/
 
